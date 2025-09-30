@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+body{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.whatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+    bottom: 20px;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+}
+.align-end{
+    align-items:center;
+    justify-content:space-around;
+    
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+
+}
+
+

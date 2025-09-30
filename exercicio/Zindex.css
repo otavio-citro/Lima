@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+
+
+div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/*seletor*/
+
+.box1 {
+    background-color: blueviolet;
+}
+
+.box2 {
+    background-color: rgb(43, 134, 226);
+    left: 50px;
+    top: 50px;
+    z-index: -1;
+    /*profundidade*/
+}
+
+.box3 {
+    background-color: rgb(55, 226, 43);
+    top: 100px;
+    left: 100px;
+
+}

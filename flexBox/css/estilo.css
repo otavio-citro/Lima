@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+h1, h2{
+    color: black;
+}
+
+.item{
+    background-color: rgb(0, 102, 255);
+    color: rgb(2, 243, 243);
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1; /*faz com os itens cresçam igualmente */
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.justify{
+    justify-content: space-around;
+}
+
+.item2{
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+}
+
+.align-end{
+    align-items: flex-end;
+    justify-content:center;
+}
